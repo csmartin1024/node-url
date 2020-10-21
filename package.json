@@ -13,8 +13,8 @@
   ],
   "devDependencies": {
     "assert": "1.1.1",
-    "mocha": "1.18.2",
-    "zuul": "3.3.0"
+    "mocha": "^8.2.0",
+    "zuul": "^3.12.0"
   },
   "scripts": {
     "test": "mocha --ui qunit test.js && zuul -- test.js",

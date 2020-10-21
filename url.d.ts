@@ -1,9 +1,7 @@
-'use strict';
-
 export function parse(url: string, parseQueryString: string, slashesDenoteHost: string): Url;
 export function resolve(source: string, relative: string): string;
 export function resolveObject(source: string, relative: string): Url;
-export function format(obj: string | url): string;
+export function format(obj: string | Url): string;
 
 export class Url{
     protocol: string;
